@@ -1,0 +1,22 @@
+* What is flutter?
+    Tool that alolwos to build *native cross-platform* (IOS, Android) apps
+    with /one programming language/ and /codebase/.
+
+** A SDK (Software Development Kit)
+    *** Tools to compile your code to native machine code + develop with ease.
+
+** A Framework/Widget Library
+    *** Re-usable UI building blocks (=widgets), utility functions, packages.
+
+** Dart
+    *** Programming language developed by ~Google~
+        Focused on *frontend* (mobile apps, web) *user interface* (UI) development
+    *** Object-oriented & Strongly Typed
+    *** Sytnax Is like a mixture of JavaScript, Java, C# 
+
+* Flutter vs. Dart
+    ** Flutter Framework =A Framework(Set of Features)=
+        *** Flutter
+            *** Flutter SDK =A Set of Tools=
+        *** Dart =The Programming Language=
+            A Dart Framework, providing Utility Functions & UI Elements (Widgets)

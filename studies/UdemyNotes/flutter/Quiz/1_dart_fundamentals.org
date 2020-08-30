@@ -1,0 +1,20 @@
+* 1. What are "Types"?
+    ** Data types of values you work with your code
+* 2. What's the job of "variables"?
+    ** Variables hold data with which you can work in your code
+* 3. What are "functions"?
+    ** Functions hold code which you can call as often and whenever you want
+* 4. What's a "class"?
+    ** A class is a blueprint for objects which you can create based on it
+* 5. What's a "property"?
+    ** A variable inside a class
+* 6. What's a "string"?
+    ** A text value
+* 7. What's NOT true about this function?
+    int calculateRoundedAge(int birthYear, int currentYear) {
+        return currentYear - birthYear;
+    }
+ 
+    print(calculateRoundedAge(1989, 2020));
+    
+    ** It returns a number with decimal places.

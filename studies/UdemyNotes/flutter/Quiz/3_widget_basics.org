@@ -1,0 +1,46 @@
+* 1. What's the role of a Widget?
+    ** You builf your app's uder interface from Widgets.
+    *** Widgets are your core UI building block
+
+* 2. What's true about a Flutter Widget?
+    ** Answer
+        Every widget is a Dart obkect
+    *** Details
+        In the end, Widgets are just Dart objects. 
+        They need to extend StatelessWidget or 
+        StatefulWidget though (and implement a build() method).
+
+* 3. What does the term "Widget tree" describe?
+    ** Answer
+        "Widget tree" means that you build your UI 
+        with a combination of (nested) Widgets
+    *** Details
+        A typical Flutter app UI consists of multiple layers of 
+        Widgets which together form the look you want.
+
+* 4. Why do we need Widgets?
+    ** Answer
+        Widgets are the core building block which 
+        you compose rich user interfaces in Flutter
+    *** Details
+        Widgets are the UI elements you mix 
+        together to build a user interface
+
+* 5. How do you combine widgets?
+    ** Answer
+        You pass Widgets into the constructors of other
+        Widgets to fill certain roles.
+    *** Details
+        Most Widgets have some (named) arguments 
+        that require another Widget 
+        - e.g. the "children" argument on the Column() 
+        constructor. Or "child" on Container().
+
+* 6. What makes a Dart object a Widget?
+    ** Answer
+        Extending StatelessWidget / StatefulWidget and
+        implementing a build() method
+    *** Details 
+        Widgets are normal Dart classes / objects. But they're 
+        only usable as Widgets if you extend StatelessWidget or 
+        StatefulWidget and add a build() method.

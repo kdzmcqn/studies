@@ -1,0 +1,26 @@
+* 1. What's the core difference between StatelessWidget an StatefulWidget?
+    ** Answer
+        StatelessWidget can't re-run build() when it's properties change.
+    *** Details
+        Whilst you can add (and also change) properties in a 
+        StatelessWidget, there's no way of telling Flutter
+        that it should re-run build() upon such changes.
+
+* 2. What's the difference between "Input Data" (also: "External Data") and "Internal Data"?
+    ** Answer
+        Innput Data is the data received via the constructor
+        of a Widget. If that changes, the Widget is rebuilt.
+    *** Details
+        All widgets (i.e. both Stateless and Stateful) can 
+        receive data via their constructors. But only 
+        StatefulWidgets can have class properties where they
+        can update values + re-run build()
+
+* 3. Why do you need to call `setState(() { ... })` in a StatefulWidget (when changing some internal data)?
+    ** Answer
+        Without ~setState()~, the Widget does change its property
+        value but it will not re-run build() method. Hence updates
+        aren't reflected on the screen.
+    *** Details
+        ~setState()~ is a /"trigger"/ that informs Flutter 
+        that it needs to re-run build() of the Widget.

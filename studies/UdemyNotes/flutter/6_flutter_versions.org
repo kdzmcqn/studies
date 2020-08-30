@@ -1,0 +1,4 @@
+* Flutter versions changes frequently
+    ** This does not mean, that flutter changes all the time
+    ** Bugfixes, small improvements, "behind-the-scenes" changes, new (niche) features...
+

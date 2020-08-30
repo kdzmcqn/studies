@@ -1,0 +1,19 @@
+* Flutter Architecture
+    ** UI as Code: Build a /Widget Tree/
+    ** Embrace /Platform Differences/
+    ** One /Codebase/
+
+* MyApp Widget Tree
+    ** MyApp
+        *** JobSearch
+            **** AllJobs
+            **** JobDetail
+                * MainImage
+                * Content
+        *** JobAdmin
+            **** OpenJobs
+            **** CreateJob
+                * JobForm
+                    ** AddImage
+                    ** AddMap
+

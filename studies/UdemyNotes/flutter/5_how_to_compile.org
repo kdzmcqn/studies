@@ -1,0 +1,14 @@
+* How Flutter/Dart 'transformed' to a Native App?
+
+* Flutter does NOT use Platform Primitive
+
+** Flutter
+    ** RaiseButton()
+        *** iOS UIButton
+        *** Android widget.Button
+
+    * RaiseButton()
+        ** Custom implementation
+            /Flutter directly controls every pixes which is drawn/
+            Greater control, less platform-limitations/no *translation loss*
+            
